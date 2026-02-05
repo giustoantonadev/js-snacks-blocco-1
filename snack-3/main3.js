@@ -9,6 +9,8 @@ let number = 0;
 for (let i = 0; i < 10; i++) {
     const numbers = Number(prompt('Type a number'));
     number += numbers;
+    console.log(numbers);
+    
 }
 
 console.log(number);
