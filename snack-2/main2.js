@@ -7,10 +7,11 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 const userWord = prompt('Scrivi una parola')
 const userWordTwo = prompt("Scrivi una seconda parola")
 
-if (userWord.length > userWordTwo.length){
+if (userWord.length < userWordTwo.length){
     console.log(userWord, userWordTwo);
+
     
-} else if (userWordTwo.length > userWord.length) {
+} else if (userWordTwo.length < userWord.length) {
     console.log(userWordTwo, userWord);
     
 } else {
